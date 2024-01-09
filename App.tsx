@@ -7,6 +7,7 @@ import AnimatedSpring from "./src/components/AnimatedSpring";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import AnimatedComposing from "./src/components/AnimatedComposing";
+import AnimatedProperty from "./src/components/AnimatedProperty";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -17,7 +18,8 @@ export default function App() {
       {/* <AnimatedValue /> */}
       {/* <AnimatedTiming /> */}
       {/* <AnimatedSpring /> */}
-      <AnimatedComposing />
+      {/* <AnimatedComposing /> */}
+      <AnimatedProperty />
       <StatusBar style="auto" />
     </View>
   );
